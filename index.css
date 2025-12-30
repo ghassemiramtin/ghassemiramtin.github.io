@@ -1,17 +1,8 @@
-.profile-picture {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-}
-
-.cursive-writing {
-  font-family: 'Great Vibes', cursive;
-  font-size: 40px;
-}
-
-.centered-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.ball {
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+	transition: 0.1s;
 }
